@@ -1,0 +1,69 @@
+.displayed {
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3em;
+    margin-top: 30px;
+}
+
+body {
+    background: #8462CE;
+    background: -moz-linear-gradient(45deg, #8462CE 0%, #4A3567 29%, #070413 100%);
+    background: -webkit-linear-gradient(45deg, #8462CE 0%, #4A3567 29%, #070413 100%);
+    background: linear-gradient(45deg, #8462CE 0%, #4A3567 29%, #070413 100%);
+}
+
+.vid {
+    display: block;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: auto;
+    
+}
+
+nav ul{
+    display: flex;
+    margin: 0;
+    background: #8462CE;
+    background: -moz-linear-gradient(45deg, #8462CE 0%, #4A3567 29%, #070413 100%);
+    background: -webkit-linear-gradient(45deg, #8462CE 0%, #4A3567 29%, #070413 100%);
+    background: linear-gradient(45deg, #8462CE 0%, #4A3567 29%, #070413 100%);
+    list-style: none;
+}
+
+nav ul li{
+    list-style: none;
+    width: 100%;
+    
+}
+
+nav ul a {
+    list-style: none;
+   
+    color: #FFF;
+    text-decoration:none;  
+
+}
+
+.video-container{
+    display: block;
+    height: 100vh;
+    width: 100%;
+    z-index: 50;
+}
+
+.video-container {
+
+    width: 100vw;
+    max-width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}
